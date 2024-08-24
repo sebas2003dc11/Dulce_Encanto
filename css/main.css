@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #F8EFBA;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.logo-title {
+  font-size: 1.2rem;
+  margin-right: auto;
+}
+
+.enlaces-nav a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+section .encabezado {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../assets/img/fondo.jpg);
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+section .encabezado h1 {
+  color: #ffb142;
+  font-size: 3.5rem;
+  vertical-align: middle;
+}
+section .encabezado p {
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+section .content-about {
+  display: flex;
+  margin-top: 10rem;
+}
+section .content-about .img-acerca-de img {
+  max-width: 250px;
+  border: 2px;
+  border-radius: 25px;
+  margin-left: 80px;
+}
+section .content-about .subtitle-info h2 {
+  text-align: center;
+  vertical-align: middle;
+  color: #ffb142;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+section .content-about .subtitle-info p {
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+  font-size: 1.2rem;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+section .container-beneficios {
+  margin-top: 5rem;
+}
+section .container-beneficios .title-beneficios {
+  text-align: center;
+  vertical-align: middle;
+  color: #ffb142;
+  font-size: 1.5rem;
+}
+section .container-beneficios .content-beneficios {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+section .container-beneficios .text-left {
+  width: 20%;
+  text-align: center;
+  margin-left: 3rem;
+}
+section .container-beneficios .text-right {
+  width: 20%;
+  text-align: center;
+  margin-right: 3rem;
+}
+section .container-beneficios .image-beneficios {
+  width: 100px;
+  margin-bottom: 3rem;
+}
+section .container-beneficios .text-center {
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+  margin-top: 1rem;
+  width: 50%;
+  margin-left: 20rem;
+}
+section .container-beneficios .logo-beneficios img {
+  width: 250px;
+  margin-left: 34rem;
+  margin-top: 3rem;
+  max-width: 250px;
+  border: 2px;
+  border-radius: 25px;
+}
+section .gallery {
+  margin-top: 10rem;
+}
+section .gallery h2 {
+  text-align: center;
+  vertical-align: middle;
+  color: #ffb142;
+  font-size: 1.5rem;
+}
+section .gallery .gallery-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 3rem;
+}
+section .gallery .gallery-images img {
+  width: 30vw;
+  height: 45vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 5px 35%;
+     object-position: 5px 35%;
+  border-radius: 16px;
+}
+section .footer {
+  background: #fdcb6e;
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+section .footer .social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px 5px;
+  flex-wrap: wrap;
+}
+section .footer .icon-elem {
+  list-style: none;
+}
+section .footer .icon {
+  font-size: 32px;
+  display: inline-block;
+  margin: 0 12px;
+  transition: 0.5s;
+}
+section .footer .icon:hover {
+  transform: translateY(-10px);
+}
+section .footer .menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+section .footer .menu-footer {
+  list-style: none;
+}
+section .footer .menu-icon {
+  color: black;
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px 10px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+section .footer .menu-icon:hover {
+  opacity: 1;
+}
+section .footer .texto-footer {
+  color: black;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */
